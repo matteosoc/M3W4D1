@@ -7,9 +7,9 @@ for (let i = 0; i < carousels.length; i++) {
     let scrollPosition = 0;
 
     carousel.parentElement.querySelector(".carousel-control-next").addEventListener("click", function () {
-        if (scrollPosition < (carouselWidth - cardWidth * 4)) { // Controlla se si può andare oltre
-            scrollPosition += cardWidth;  // Aggiorna la posizione di scroll
-            carousel.scrollTo({ left: scrollPosition, behavior: 'smooth' }); // Scorrimento verso sinistra
+        if (scrollPosition < (carouselWidth - cardWidth * 6)) {
+            scrollPosition += cardWidth;
+            carousel.scrollTo({ left: scrollPosition, behavior: 'smooth' });
         }
     });
 

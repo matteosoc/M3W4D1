@@ -130,7 +130,7 @@ main {
     }
     .carousel-item {
       margin-right: 0;
-      flex: 0 0 calc(100%/4);
+      flex: 0 0 calc(100%/3);
       display: block;
     }
   }
